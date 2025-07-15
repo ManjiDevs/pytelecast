@@ -1,9 +1,10 @@
-# pytelecast/__init__.py
+# pyte/__init__.py
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ContextTypes, CommandHandler, MessageHandler, CallbackQueryHandler, filters
 from .core import broadcast_message
-from .db_json import add_user, get_all_users as json_get
+from .db_json import add_user as json_add, get_all_users as json_get
 from .db_sqlite import add_user as sql_add, get_all_users as sql_get
+from .db_mongo import setup_mongo
 
 def init_broadcast(app, sudo_users: list[int], db_type="json", db_url=None):
     assert db_type in ["json", "sqlite", "mongo"], "Invalid db_type"
