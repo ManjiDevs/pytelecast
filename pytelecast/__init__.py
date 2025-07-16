@@ -1,4 +1,4 @@
-# pyte/__init__.py
+# broadcast/__init__.py
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ContextTypes, CommandHandler, MessageHandler, CallbackQueryHandler, filters
 from .core import broadcast_message
