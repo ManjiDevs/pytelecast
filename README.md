@@ -1,4 +1,4 @@
-# 🛰️ py-telecast
+# 🛰️  pytelecast
 
 A lightweight and plug-and-play **broadcast module** for Python Telegram Bots using `python-telegram-bot` v20+. Developed by **Manji Devs**, this module supports:
 - JSON (default)
@@ -19,7 +19,7 @@ A lightweight and plug-and-play **broadcast module** for Python Telegram Bots us
 
 ## 🔧 Installation
 ```bash
-pip install py-telecast
+pip install pytelecast
 ```
 
 
@@ -86,8 +86,8 @@ Optional (for MongoDB):
 5. Supports both polling and webhook setups
 
 ## 🌐 Links
-- GitHub: [github.com/your-org/py-telecast](https://github.com/manjidevs/py-telecast)
-- PyPI: [pypi.org/project/py-telecast](https://pypi.org/project/py-telecast)
+- GitHub: [github.com/manjidevs/pytelecast](https://github.com/manjidevs/pytelecast)
+- PyPI: [pypi.org/project/pytelecast](https://pypi.org/project/pytelecast)
 - Python-Telegram-Bot Docs: [docs.python-telegram-bot.org](https://docs.python-telegram-bot.org)
 
 ## 📄 License
