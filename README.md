@@ -31,7 +31,7 @@ pip install py-telecast
 ### 1. Basic Setup (`main.py`)
 ```python
 from telegram.ext import Application
-from py_telecast import init_broadcast
+from pytelecast import init_broadcast
 
 app = Application.builder().token("YOUR_BOT_TOKEN").build()
 
